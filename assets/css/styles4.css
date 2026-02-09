@@ -1,0 +1,39 @@
+@keyframes slide {
+    0% {
+      left: 0; 
+    }
+    100% {
+      left: calc(100% - 100px); 
+    }
+  }
+
+  @keyframes color2 {
+    0% {
+        background-color: rgb(102, 0, 255);
+    }
+    70%{
+        background-color: rgb(255, 255, 255);
+    }
+    100%{
+        background-color: rgb(102, 0, 255);
+    }
+}
+
+
+
+.box1 {
+    width: 100px;
+    height: 1000px;
+    background-color: rgb(150, 150, 255);
+    position: relative; 
+    animation: slide 1s infinite alternate; 
+  }
+  
+
+  body{
+    background-color: rgb(149, 0, 255);
+    animation-name: color2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+

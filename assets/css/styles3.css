@@ -1,0 +1,339 @@
+@keyframes color{
+    0%{
+        background-color: rgb(218,245,97);
+    }
+    50%{
+        background-color: rgb(255,82,82);
+    }
+    100%{
+        background-color: rgb(218,245,97);
+    }
+}
+
+
+@keyframes color2{
+    0%{
+        background-color: rgb(221, 119, 213);
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: rgb(221, 119, 213);
+    }
+}
+
+@keyframes flipUpDown {
+    0% {
+        transform: rotateX(0deg); /* Starts flat */
+    }
+    50% {
+        transform: rotateX(180deg); /* Flips up (180 degrees) */
+    }
+    100% {
+        transform: rotateX(0deg); /* Flips back down */
+    }
+}
+
+
+
+
+
+
+.box1{
+    display: inline-block;
+    position: relative;
+    background:rgb(218,245,97);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.triangle1{
+    color:rgb(93, 169, 255);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(93, 169, 255);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle2{
+    position: relative;left: 175px;
+    color:rgb(144, 226, 226);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(144, 226, 226);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box2{
+    display: inline-block;
+    position: relative;
+    background:rgb(255,82,82);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle3{
+    color:bisque;
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid bisque;
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle4{
+    position: relative;left: 175px;
+    color:rgb(255, 151, 24);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(255,151,24);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box3{
+    display: inline-block;
+    position: relative;
+    background:rgb(221, 119, 213);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle5{
+    color:rgb(255, 197, 231);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(255, 197, 231);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle6{
+    position: relative;left: 175px;
+    color:rgb(139, 182, 240);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(139, 182, 240);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box4{
+    display: inline-block;
+    background:rgb(148, 223, 233);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle7{
+    color:rgb(211, 228, 148);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(211, 228, 148);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle8{
+    position: relative;left: 175px;
+    color:rgb(255, 183, 142);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(255, 183, 142);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box5{
+    display: inline-block;
+    background:rgb(253, 189, 199);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle9{
+    color:rgb(241, 157, 136);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(241, 157, 136);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle10{
+    position: relative;left: 175px;
+    color:rgb(202, 118, 195);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(202, 118, 195);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box6{
+    display: inline-block;
+    background:rgb(192, 243, 201);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle11{
+    color:rgb(139, 175, 253);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(139, 175, 253);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle12{
+    position: relative;left: 175px;
+    color:rgb(196, 255, 230);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(196, 255, 230);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box7{
+    display: inline-block;
+    background:rgb(192, 212, 255);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle13{
+    color:bisque;
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid bisque;
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle14{
+    position: relative;left: 175px;
+    color:rgb(186, 243, 81);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(186, 243, 81);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box8{
+    display: inline-block;
+    background:rgb(255, 239, 221);
+    width:350px;
+    height:350px;
+    vertical-align: top;
+    margin: 10px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle15{
+    color:rgb(157, 177, 231);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-bottom: 175px solid rgb(157, 177, 231);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.triangle16{
+    position: relative;left: 175px;
+    color:rgb(227, 155, 236);
+    width: 0;
+    height: 0;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 175px solid rgb(227, 155, 236);
+    animation-name: flipUpDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
